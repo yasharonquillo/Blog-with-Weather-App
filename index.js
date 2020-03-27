@@ -136,7 +136,7 @@ weathers = [];
               const weather = {
                 city: city,
                 image: imageURL,
-                temp: temp,
+                temp: Math.round(temp),
                 weatherDescription: weatherDescription,
                 humidity: humidity,
                 windDirection: windDirection
